@@ -1,12 +1,12 @@
 import React from 'react'
-import workImg from '../assets/workImg.jpeg';
-import realestate from '../assets/realestate.jpg';
+
+import desktop from '../assets/desktop.png';
 import Homestart from '../assets/Homestart.png';
 
 const workList = [
     {
-        name: 'React App',
-        image: workImg,
+        name: 'Advice App',
+        image: desktop,
     },
     {
         name: 'Homestart Landing Page',

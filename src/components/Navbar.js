@@ -35,7 +35,7 @@ const Navbar = () => {
                 </Link></li>
                 <li><Link to="contact" smooth={true} offset={50} duration={500} >
                     Contact
-                </Link></li>
+                </Link></li>  
             </ul>
 
             {/* hamburger */}
