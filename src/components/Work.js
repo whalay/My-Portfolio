@@ -2,15 +2,33 @@ import React from 'react'
 
 import desktop from '../assets/desktop.png';
 import Homestart from '../assets/Homestart.png';
+import cryptoapp from '../assets/cryptoapp.png';
+import ip from '../assets/ip.png';
 
 const workList = [
     {
-        name: 'Advice App',
-        image: desktop,
-    },
-    {
         name: 'Homestart Landing Page',
         image: Homestart,
+        Demo:'https://whalay-homestart.netlify.app',
+        code: 'https://github.com/whalay/React-Portfolio'
+    },
+    {
+        name: 'Advice App',
+        image: desktop,
+        Demo:'https://adviceslip-app.netlify.app/',
+        code: 'https://github.com/whalay/Advice-Generator'
+    },
+    {
+        name: 'Crappo Landing Page',
+        image: cryptoapp,
+        Demo:'https://whalay-cryptoapp.netlify.app/',
+        code: 'https://github.com/whalay/CrappoApp-Landing-page'
+    },
+    {
+        name: 'IP Address Finder',
+        image: ip,
+        Demo:'https://whalay-ip-address-finder.netlify.app/',
+        code: 'https://github.com/whalay/IP-Address-Finder'
     },
 ];
 
@@ -36,10 +54,10 @@ const Work = () => {
                                         {list.name}
                                     </span>
                                     <div className='pt-4 text-center'>
-                                        <a href="/">
+                                        <a href={list.Demo}>
                                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white  text-gray-700 font-bold text-lg'>Demo</button>
                                         </a>
-                                        <a href="/">
+                                        <a href={list.code}>
                                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                         </a>
                                     </div>
