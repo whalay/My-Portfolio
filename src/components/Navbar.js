@@ -7,9 +7,11 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
+    
 
     const handleClick = () => setNav(!nav);
 
+    const closeMenu = () => setNav(false);
     return (
 
         <div className='fixed w-full h-[80px] flex justify-between  items-center px-4  bg-[#0a192f] text-green-100'>
@@ -45,21 +47,21 @@ const Navbar = () => {
             </div>
             {/* mobile menu */}
             <ul className={!nav ? 'hidden' : " flex flex-col justify-center items-center absolute top-0 left-0 w-full bg-[#0a192f]  h-screen "}>
-                <li className='py-6 text-4xl'>
+                <li onClick={closeMenu} className='py-6 text-4xl'>
                     <Link to="home" smooth={false} offset={50} duration={500} >
                         Home
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'><Link to="about" smooth={false} offset={50} duration={500} >
+                <li onClick={closeMenu} className='py-6 text-4xl'><Link to="about" smooth={false} offset={50} duration={500} >
                     About
                 </Link></li>
-                <li className='py-6 text-4xl'><Link to="skills" smooth={false} offset={50} duration={500} >
+                <li onClick={closeMenu} className='py-6 text-4xl'><Link to="skills" smooth={false} offset={50} duration={500} >
                     Skills
                 </Link></li>
-                <li className='py-6 text-4xl'><Link to="work" smooth={false} offset={50} duration={500} >
+                <li onClick={closeMenu} className='py-6 text-4xl'><Link to="work" smooth={false} offset={50} duration={500} >
                     Work
                 </Link></li>
-                <li className='py-6 text-4xl'><Link to="contact" smooth={false} offset={50} duration={500} >
+                <li onClick={closeMenu} className='py-6 text-4xl'><Link to="contact" smooth={false} offset={50} duration={500} >
                     Contact
                 </Link></li>
             </ul>
