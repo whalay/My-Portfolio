@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cb1885fc.css",
+    "main.js": "/static/js/main.2ebad8ed.js",
+    "static/js/787.633816a4.chunk.js": "/static/js/787.633816a4.chunk.js",
+    "static/media/coin.png": "/static/media/coin.3090a76d237cb36e73a1.png",
+    "static/media/ip.png": "/static/media/ip.67fea914b932ca4b1dcf.png",
+    "static/media/rest.png": "/static/media/rest.6f82a03c27fbdfc70017.png",
+    "static/media/admin.png": "/static/media/admin.d417775e93532cdf7538.png",
+    "static/media/Homestart.png": "/static/media/Homestart.0717f9c14ed53950e8e7.png",
+    "static/media/sys.png": "/static/media/sys.06b759a71ba46f2ac168.png",
+    "static/media/cryptoapp.png": "/static/media/cryptoapp.2d741dde875301dd17fb.png",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/ubuntu.svg": "/static/media/ubuntu.003d7eb2ac69ade756d555f2c7ccc8c3.svg",
+    "static/media/tailwindcss.svg": "/static/media/tailwindcss.68603ef4173093c409dcd59733df7ecf.svg",
+    "index.html": "/index.html",
+    "main.cb1885fc.css.map": "/static/css/main.cb1885fc.css.map",
+    "main.2ebad8ed.js.map": "/static/js/main.2ebad8ed.js.map",
+    "787.633816a4.chunk.js.map": "/static/js/787.633816a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb1885fc.css",
+    "static/js/main.2ebad8ed.js"
+  ]
+}

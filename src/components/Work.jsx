@@ -1,6 +1,5 @@
 import React from 'react'
 
-import desktop from '../assets/desktop.png';
 import Homestart from '../assets/Homestart.png';
 import cryptoapp from '../assets/cryptoapp.png';
 import ip from '../assets/ip.png';
@@ -79,17 +78,10 @@ const Work = () => {
                                         </a>
                                     </div>
                                 </div>
-
                             </div>
-
                         );
                     })}
-
-
-
-
                 </div>
-
             </div>
         </div>
 
