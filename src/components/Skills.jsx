@@ -7,6 +7,10 @@ import html from '../assets/html.png';
 import javascript from '../assets/javascript.png';
 import react from '../assets/react.png';
 import node from '../assets/node.png';
+import ubuntu from '../assets/ubuntu.svg';
+import tailwind from '../assets/tailwindcss.svg';
+
+
 
 
 const Skill = [{
@@ -35,10 +39,20 @@ const Skill = [{
   image: node,
 },
 {
-  id: 4,
+  id: 6,
   name: 'GITHUB',
   image: github,
-},];
+},
+{
+    id: 7,
+    name: 'TAILWINDCDD',
+    image: tailwind,
+  },
+  {
+    id: 8,
+    name: 'UBUNTU',
+    image: ubuntu,
+  },];
 
 
 

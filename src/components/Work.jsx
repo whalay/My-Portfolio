@@ -4,19 +4,36 @@ import desktop from '../assets/desktop.png';
 import Homestart from '../assets/Homestart.png';
 import cryptoapp from '../assets/cryptoapp.png';
 import ip from '../assets/ip.png';
+import coin from '../assets/coin.png';
+import admin from '../assets/admin.png';
+import rest from '../assets/rest.png';
+
+
 
 const workList = [
+    {
+        name: 'Admin Dashboard',
+        image: admin,
+        Demo:'https://admin-dashboard-fawn-tau.vercel.app',
+        code: 'https://github.com/whalay/admin-dashboard'
+    },
+    {
+        name: 'Coin Control',
+        image: coin,
+        Demo:'https://coin-control.vercel.app',
+        code: 'https://github.com/whalay/CoinControl'
+    },
+    {
+        name: 'Rest Countries',
+        image: rest,
+        Demo:'https://rest-countries-bice.vercel.app/',
+        code: 'https://github.com/whalay/rest_countries'
+    },
     {
         name: 'Homestart Landing Page',
         image: Homestart,
         Demo:'https://whalay-homestart.netlify.app',
         code: 'https://github.com/whalay/React-Portfolio'
-    },
-    {
-        name: 'Advice App',
-        image: desktop,
-        Demo:'https://adviceslip-app.netlify.app/',
-        code: 'https://github.com/whalay/Advice-Generator'
     },
     {
         name: 'Crappo Landing Page',
