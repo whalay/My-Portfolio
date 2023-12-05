@@ -45,7 +45,7 @@ const Skill = [{
 },
 {
     id: 7,
-    name: 'TAILWINDCDD',
+    name: 'TAILWINDCSS',
     image: tailwind,
   },
   {

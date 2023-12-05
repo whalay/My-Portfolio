@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between  items-center px-4  bg-[#0a192f] text-green-100">
       <div>
-        <img src={logo} alt="" style={{ width: "100px" }} />
+        <img src={logo} alt="" className=" md:w-20 md:h-15" />
       </div>
       {/* menu */}
 
@@ -58,8 +58,8 @@ const Navbar = () => {
 
       {/* hamburger */}
 
-      <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars /> : <FaTimes />}
+      <div onClick={handleClick} className="md:hidden z-10 text-xl">
+        {!nav ? <FaBars  /> : <FaTimes  />}
       </div>
       {/* mobile menu */}
       <ul
