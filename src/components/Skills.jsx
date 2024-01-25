@@ -9,6 +9,9 @@ import react from '../assets/react.png';
 import node from '../assets/node.png';
 import ubuntu from '../assets/ubuntu.svg';
 import tailwind from '../assets/tailwindcss.svg';
+import flask from '../assets/flask.png';
+import python from '../assets/python.png';
+
 
 
 
@@ -50,6 +53,16 @@ const Skill = [{
   },
   {
     id: 8,
+    name: 'PYTHON',
+    image: python,
+  },
+  {
+    id: 9,
+    name: 'FLASK',
+    image: flask,
+  },
+  {
+    id: 10,
     name: 'UBUNTU',
     image: ubuntu,
   },];
