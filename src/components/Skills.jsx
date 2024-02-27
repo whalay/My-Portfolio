@@ -9,7 +9,7 @@ import react from '../assets/react.png';
 import node from '../assets/node.png';
 import ubuntu from '../assets/ubuntu.svg';
 import tailwind from '../assets/tailwindcss.svg';
-import flask from '../assets/flask.png';
+import flask from '../assets/flask.jpeg';
 import python from '../assets/python.png';
 
 
